@@ -15,7 +15,7 @@ const ChannelCard = ({ channelDetail, marginTop }) => (
       width: { xs: "356px", md: "320px" },
       height: "326px",
       margin: "auto",
-      marginTop,
+      marginTop: marginTop,
       "&:hover": {
         transform: "scale(1.1)",
         transition: "transform 300ms ease-in-out",
